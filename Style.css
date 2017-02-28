@@ -1,0 +1,3899 @@
+/* Style: dpp (Inherited from XMPieGreen) */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* Resets */
+
+div, header, nav, ul, li, body {
+    padding: 0;
+    margin: 0;
+}
+            
+ul {
+    list-style-type: none;
+}
+
+header ul { }
+/* for new elements in old browsers */
+article, aside, figure, footer, header, hgroup, nav, section { 
+    display: block; 
+}		
+
+/*
+    Document Level styles
+*/
+body 
+{
+    border-style: solid;
+    border-width: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+	background: #9fabb1 url(dppBackRibbon.png) repeat-x 0 0; 
+	
+}
+
+html 
+{
+
+}
+
+a:link,
+a:visited,
+a.SmallLink,
+.addressItemHead .personName,
+A.BigLink,
+A.BigLink:hover,
+a.SmallLink:hover,
+.DeliveryStatus,
+.TrackingLink
+{
+    color: #006699;
+}
+
+dl{
+	-webkit-margin-after:0;
+}
+
+#searcharea 
+{
+
+	border-bottom:1px solid #aeaeae;
+	border-top:1px solid #aeaeae;
+	background-color:#d1d1d1;
+    height: 42px;
+	display:block;
+
+}
+
+hr {
+	
+}
+
+
+DIV#fullpage.ThemedPageMaster, DIV#fullpage.ThemedPagedFullWidthMaster, DIV#fullpage.LoginMaster{ 
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	background:#ffffff;
+	margin-bottom:2em;
+} 
+
+#headstrip {  background:#3f3f3f; padding:4px 10px 26px 30px; border-bottom:4px solid #333333; min-height:26px; }
+#headstripInner { width:1024px; margin: 0 auto; }
+#headstripInner ul {float:left; width:900px; }
+#headstripInner ul li { float:left; display:inline; padding:0 1em; }
+#NavigationHeader { position:relative; top:-4.5em; width:330px; float:right;}
+
+
+.ThemedPagedFullWidthMaster #searcharea { width: 1024px; }
+
+.subtitleProductName,
+.subtitle 
+{
+    display: inline-block; /* was inline-block*/
+    font-size: 20px;
+    font-variant: inherit;
+    font-weight: 100;
+    position: relative;
+    left: 20px;
+    top: 0px;
+	padding: 8px 0 4px 0;
+	color:#969696 !important;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	
+}
+.ErrorText {
+	font-size:16px;
+	font-weight:bold;
+}
+
+.subTitleProductNameExists
+{
+    display:none; /* was 'none' */
+}
+
+.ie7 .subtitleProductName,
+.ie7 .subtitle
+{
+    display: block;
+}
+
+.LoginMaster .subtitle 
+{
+
+}
+
+.productSearchBox
+{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    /*bottom: 13px;*/
+    margin: 10px 0 0 0;
+}
+
+/*
+.ThemedPageMaster .productSearchBox
+{
+	bottom: 26px;
+}*/
+
+.productSearchBox > div
+{
+    float: left;
+}
+
+.productSearchBox input[type=submit]
+{
+    background-image: url(magnifing-glass.png);
+    background-color: #511c6c;
+	border-radius: 0 4px 4px 0;
+	height:25px;
+}
+
+.productSearchBox input[type=text] {
+	border:1px solid #aeaeae;
+	border-radius: 4px 0 0 4px;
+	padding:0 0.2em;
+	width:200px;
+}
+
+.productSearchBox input[type=text]:focus {
+	border:1px solid #17596f;
+}
+
+/* begin user welcome styles */
+
+.userWelcome
+{
+	text-align: left; 
+	height: auto;
+    padding: .2em 1em;
+	float:none;
+	*padding:0 1em;
+	padding: 0px 10px;
+   /* margin: 0;   
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    z-index: 2; 
+	width:200px;
+	behavior: url(/PIE.htc); */
+
+}
+.userWelcome span
+{
+	height: 16px;
+	line-height: 16px;
+	*height: 16px;
+	*line-height: 15px;
+	text-align: left;
+	color:#ffffff !important;
+	font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+	text-transform: uppercase;
+	font-size:9px;
+}
+
+.userWelcome span a.SmallLink { color:#f99d2a; }
+
+/* end user welcome styles */
+
+#masterPageFooter 
+{
+	padding:1em 0em;
+	background:#3f3f3f; 
+    width: 1024px;
+	clear:both;
+	border-top:4px solid #333333;
+	/* background: url(footer_back.png) repeat-x 0 0; */
+}
+
+.LoginMaster #masterPageFooter 
+{
+	padding:1em 0em;
+	background:transparent; 
+    width: 1024px;
+	clear:both;
+	border-top:none;
+	/* background: url(footer_back.png) repeat-x 0 0; */
+}
+
+#postFooter { margin-bottom: 25px; }
+
+.ThemedPageMaster #masterPageFooter
+{
+    width: 1024px;
+}
+
+
+#masterPageFooter p { color: #778890; padding:0em 0 .2em 1em; float:left; }
+#masterPageFooter  ul{ float:right; padding:.8em 0; width:300px; margin-right:1.2em; }
+#masterPageFooter ul li { 
+	float:right;
+	display:inline; 
+}
+#masterPageFooter ul li a { 
+	min-width:60px; 
+	border-radius:4px; 
+	padding:8px 14px; 
+	margin-left:1em; 
+	color:#ffffff;
+	box-shadow:4px 4px 4px #111111;
+	-moz-box-shadow:4px 4px 4px #111111;
+	-webkit-box-shadow:4px 4px 4px #111111;
+}
+#about { background:#49b8a0; }
+#contact { background:#da1076;}
+#sampledatax { background:#f99d2a; }
+#masterPageFooter ul li a:hover {
+	background:#aeaeae;
+}
+#masterPageFooter ul li a:active { 
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #111111;
+	-moz-box-shadow:2px 2px 2px #111111;
+	-webkit-box-shadow:2px 2px 2px #111111;
+}
+
+#masterPageFooter ul li:active{
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+}
+
+#masterPageFooter ul li a:focus{
+	outline:none;
+}
+
+
+/* removed */
+#fullWidthContent {
+    background-color: #FFFFFF;
+    /*
+    border-left: #C6CCD9 solid 3px;
+    border-right: #C6CCD9 solid 3px;
+*/
+    height:auto;
+    min-height: 480px;    
+}
+
+#header {
+	background:#333333 ; 
+    text-align: left;
+	padding-top:2em;
+	 border-radius: 4px 4px 0 0;
+
+}
+
+/* Formatting Styles */ 
+a {
+    text-decoration: none;
+}
+
+.Link
+{
+    text-decoration: underline;
+}
+
+.productSearchTD
+{
+    text-align: right;
+    background-color: #FFFFFF;
+}
+
+.cellbottom {
+    border: 0px;
+
+}
+
+.clearfloat{
+    clear: both;
+}
+
+.emphasis {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.formbox {
+    border: solid 1px #9fabb1;
+}
+
+.formfield {
+    font-size: 13px;
+}
+
+.formprompt {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.formpromptred {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.formtitle {
+    background-color: #007ABE;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.leftbar {
+    background-color: #009900;
+    font-size: 12px;
+    font-weight: normal;
+    height: 100%;
+    width: 154px;
+}
+
+	::-webkit-scrollbar {
+    display: none;
+}
+.welcomeIFrame 
+{
+    width:780px; /* originally 800px */
+	min-height:520px;
+    height:520px; /* originally 525px */
+    border-width:0px;
+    overflow:hidden;
+	position:relative;
+	top:-3em;
+	display:inline-block;
+	background:#ffffff;
+
+}
+.ie9.welcomeIFrame{
+   /* Will apply only to IE8 */
+   min-height:525px;
+    height:525px;
+	overflow:hidden;
+}
+.homeIFrameContainer
+{
+    vertical-align:top;
+
+
+}
+
+.homeOrderListsContainer
+{
+    background-color:transparent; 
+    width: 100%;
+    font-size:11px;
+}
+
+.homeOrderListsContainer > div
+{
+    float: right;
+}
+
+.mainareaFullWidth {
+    
+    border-width: 0px;
+    padding: 10px 10px 10px 30px;
+    float: left;
+    width: 980px;
+	max-width:980px; /* was 960 */
+    min-height: 480px;
+}
+.LoginMaster #bodyarea
+{
+    width: 1024px;
+    background-color: #ffffff;
+}
+.LoginMaster .mainareaFullWidth
+{
+    width: 939px;
+}
+.mainAreaFooter {
+    background-color: #FFFFFF;	
+    border-width: 0px;
+    clear:left; 
+}
+
+.mainAreaFooterFullWidth {
+    background-color: #FFFFFF;	
+    border-width: 0px;
+    float: left;
+    width: 1024px;
+    padding: 12px 0;
+}
+
+.productDetailsContentFooter
+{    
+    overflow: hidden;
+}
+
+.mainAreaFooterFullWidth .WizardButtonsContainer
+{
+    border-top: none;
+    margin-top: 0;
+    padding: 12px 0;
+    width: 1024px;
+    overflow: hidden;
+}
+
+.mainAreaFooterFullWidth table 
+{
+    margin: 10px;
+}
+
+.mainAreaFooterFullWidth table.uEditButtons
+{
+    margin: 0;
+}
+
+.mainAreaFooterFullWidth table > tr > td
+{
+    margin-right: 10px;    
+}
+
+/*  uEditCustomization adjustment  */
+
+.gallerylayer
+{
+    padding-bottom:15px;
+}
+.customizationPreview
+{
+    border:1px solid gray;
+    box-shadow: 1px 1px 5px gray;
+    -moz-box-shadow: 1px 1px 5px gray;
+    -webkit-box-shadow: 1px 1px 5px gray;
+}
+
+
+table.mainAreaFooterFullWidth
+{
+    border: none;
+}
+.mainarea_bg {
+    background-color: #EFEFEF;
+}
+
+.navnorm {
+    background-image: url(navnorm.gif);
+    border: none;
+    cursor: pointer;
+    height: 21px;
+    padding-left: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.navsel {
+    background-image: url(navsel.gif);
+    border: none;
+    cursor: pointer;
+    height: 21px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.productbtns {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.productdesc {
+    font-size: 14px;
+    font-variant: normal;
+    font-weight: normal;
+	text-align:left;
+	width:65%;
+	float:right;
+}
+
+.productunits {
+    font-size: 11px;
+    font-variant: normal;
+    font-weight: normal;
+}
+
+.productname {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+*div.productListCell
+{
+    /* IE vertical scroll fix */
+    overflow-y:hidden;
+    padding-bottom:15px;
+}
+.productListCell
+{
+    position:relative;
+    top:0;
+    left:0;
+    min-height:100%;
+    overflow:auto;
+    padding: 0;
+}
+
+#TdBottomMenu
+{
+}
+.rtcontentcol {	
+    font-size: 10px;
+    font-weight: normal;
+    padding-left:20px
+}
+
+.searchprompt {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.slogan {
+    font-size:13px;
+    font-weight:bold;
+	color:#ffffff;
+    position:absolute;
+	top:77px;
+	left:19px;
+	white-space:nowrap;
+	z-index:2;
+}
+
+.smallprompt {
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.explanation {
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;	
+    white-space:normal;
+}
+
+.ShoppingCartGridDeleteItem center a:link
+{	
+    text-decoration: none;
+}
+.title 
+{
+    font-size: 22px;
+    font-weight: normal;
+    padding-left:10px;
+	color:#ffffff !important; /* This is white to hide */
+}
+
+.boundedBox 
+{
+    border: solid 1px #969696;
+    margin-bottom: 20px;
+    padding: 1em;
+	background:#d1d1d1;
+	border-radius:4px;
+}
+
+.boxHeading
+{
+    display:inline-block;
+    font-size:13px;
+    font-weight:bold;
+    padding-bottom:5px;
+}
+
+.boxSubHeading
+{
+    display: block;
+    font-size: 13px;
+    font-weight:bold;
+    padding-top: 5px;
+	padding-bottom:5px;
+	margin-right:10px;
+    position: relative;
+    float: left;
+    clear: both;
+}
+
+.ShippingItemContainer > .boxSubHeading {
+	padding-left:5px;
+}
+
+.CheckoutServices.form-control{
+	width:400px;
+}
+
+#fullpage {
+    margin: auto;
+    width: 1024px;
+	margin-top:-2.2em;
+    position: relative;
+	background:none;
+	border-radius:6px;
+
+}
+
+#logo
+{
+    height: 101px;
+    width: 292px;
+    background-image: url(dpo_headerTag.png); /* was dpsLogo.png */
+    z-index: 2;
+	border:5px solid #333333;
+}
+
+#TdBottomLogo
+{
+    height: 25px;
+}
+
+.LoginBodyArea span.ErrorText  
+{
+    margin-top:-20px;
+}
+
+#signinbtn {
+    background-image: url(icon-signin3.gif);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 36px;
+    width: 52px;
+}
+/* Layout Styles */ 
+.SelectedAsset
+{
+    background: #d1d1d1;
+    border:none;
+    border-color: #aeaeae;
+}
+
+.UnselectedAsset
+{
+    background: #FFFFFF;
+    border:none;
+    border-color: #00FFFF;
+    cursor:hand;
+}
+A.BigLink
+{
+    FONT-SIZE: 13px;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none;
+}
+
+A.BigLink:hover
+{
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.SmallLink
+{
+    font-size: 11px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+a.SmallLink:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* CUSTOM LINKS STYLES */
+
+/* FORM STYLES */
+/* DEFAULT LINK STYLE */
+/* commented by idan - because of new wizard
+.WizStep
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.WizStepSel
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    BORDER: none;
+    text-align: center;
+    text-decoration: none
+}
+*/
+
+
+/* HEADING STYLE */
+
+.PageTitle
+{
+    FONT-SIZE:18px;
+    FONT-WEIGHT:bold;
+}
+
+.Heading1   /* product details page, product name*/
+{
+    padding-top:5px;
+    font-size: 18px;
+    font-weight: bold;
+	display:none;
+}
+
+.Heading2
+{
+    FONT-SIZE:14px;
+    FONT-WEIGHT:bold;
+}
+
+
+/* FORM STYLE */
+
+.breadCrumbs
+{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.FormLabel
+{
+    font-size: 14px;
+    font-weight: bold;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+	border-radius:2px;
+	padding:.4em .5em;
+	color:#511c6c;
+	/*margin-right:1em;*/
+}
+
+.TablesInnerText .FormField {
+	width:10px;
+	min-width:0px;
+}
+
+.Normal {
+	font-size: 14px;
+    font-weight: normal;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+	border-radius:2px;
+	padding:.4em .5em;
+	color:#333333;
+	/*margin-right:1em;*/
+}
+
+.NormalBold {
+	font-size: 14px;
+    font-weight: bold;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+
+	border-radius:2px;
+	padding:.4em .5em;
+	color:#333333;
+	/*margin-right:1em;*/
+}
+
+.orderListTable #tblAdvSearch .contentColumn {
+		width: 50%;
+		padding: 5px 0;
+}
+
+.FormLabelLeft
+{
+    FONT-SIZE: 14px;
+    FONT-WEIGHT: bold;
+    text-align:left;
+}
+.Tooltip
+{
+    FONT-SIZE: 9px;
+    cursor: help;
+    white-space: nowrap;
+}
+/* Customization Steps navigation (StepsNav.ascx) */
+.btnUnselected
+{
+    HEIGHT: 30px;	
+    CURSOR: hand;
+    text-align: center;
+    padding:4px;
+}
+.btnUnselected a:link
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #3f3f3f;
+    border: 0px;
+
+}
+.btnSelected
+{
+    padding:4px;
+    HEIGHT: 30px;	
+    CURSOR: hand;
+    text-align: center;
+}
+.btnSelected a:link
+{
+    font-weight: bold;
+    font-size: 12px;
+    color: #cdb749;
+    border: 0px;
+    text-decoration: none;
+}
+
+DIV#fullpage.LoginMaster .FormField
+{
+    FONT-SIZE: 16px;
+    FONT-WEIGHT: normal;
+	border-radius:4px;
+	background:#ffffff;
+}
+
+input.FormField, select.FormField, textarea.FormField
+{
+    font-size: 14px;
+    font-weight: normal;
+	border-radius:4px;
+	background:#d1d1d1;
+	margin: 1px 0;
+}
+
+.NormalControl {
+	font-size: 14px;
+    font-weight: normal;
+	border-radius:4px;
+	background:#d1d1d1;
+	margin: 1px 0;
+}
+
+.FormButton {	
+    cursor:pointer;	
+    background: #ffffff;
+    height: 24px;
+    font: bold 11px Verdana, Arial;	
+    border: #9fabb1 2px solid;		
+}
+
+.FormButton:hover {	border: #778890 2px solid; }
+
+.FilePick {
+    font-size : 11px;
+    background-color: #d1d1d1;
+    border: 1px solid #969696;
+}
+
+TD#tdDialSummary.DialSummaryControl { padding-bottom:2em; }
+
+/* TEXT STYLE */
+
+.SmallItalic {
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    white-space: normal;
+}
+
+
+.BigItalic
+{
+    FONT-SIZE: 13px;
+    FONT-WEIGHT: normal;
+    FONT-STYLE: italic;
+}
+
+.Italic
+{
+    FONT-STYLE: italic;
+}
+
+.Error
+{
+    font-size: 14px;
+	font-weight:bold;
+}
+
+.RejectText
+{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.RejectBack
+{
+    font-size: 14px;
+    background-color: #F2DCDB !important;
+}
+
+.RejectBackAlt
+{
+    font-size: 14px;
+    background-color: #E6B9B8 !important;
+}
+
+td.approverRejectConfirm
+{
+    padding-top: 12px;
+}
+.InlineImage
+{
+    vertical-align:middle;
+    border: 0 none;   
+}
+
+/* FORM STYLES */
+
+.THFontText {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; 
+    BACKGROUND-COLOR: #d1d1d1
+}
+.TDItemText {
+    FONT-SIZE: 8pt; BACKGROUND-COLOR: #ffffff
+}
+.TDAltItemText {
+    FONT-SIZE: 8pt; BACKGROUND-COLOR: #CCCCCC
+}
+.RTHFontText {
+    FONT-WEIGHT: bold; FONT-SIZE: 8pt; 
+    BACKGROUND-COLOR: #d1d1d1
+}
+.RTDItemText {
+    FONT-SIZE: 8pt; BACKGROUND-COLOR: white
+}
+.RTDAltItemText {
+    FONT-SIZE: 8pt; BACKGROUND-COLOR: #CCCCCC
+}
+
+/* -------------  OrderApprovalList OrderRecentList ----------*/
+
+.OrderApprovalListFooter
+{
+    background-color: transparent;
+
+    font-size: 11px;
+	padding-top: 5px;
+}
+
+.PositionedImage3px
+{
+    position:relative;
+    left:3px;
+     
+}
+
+.PositionedImage5px
+{
+    position:relative;
+    left:5px;
+     
+}
+
+.PaddedTD
+{
+    padding-left:5px;
+}
+
+.approvalContainer {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:0px;
+}
+
+/* -------------  OrderApprovalList OrderRecentList END ----------*/
+
+.CartTable
+{
+
+}
+
+.CartListHead
+{
+    background-color: #00598b;
+    line-height: 15pt;
+    padding-left: 5px
+}
+
+.CartListItem
+{
+    background-color: #ffffff;
+    border-bottom: dimgray;
+    font-size: 11px;
+    line-height: 15pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: normal;
+}
+
+.CartListItemAlt
+{
+    background-color: #f2f2f2;
+    border-bottom: dimgray;
+    font-size: 11px;
+    line-height: 15pt;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: normal;
+}
+
+.CartListFooter
+{
+    background-color: #d1d1d1;
+    line-height: 10pt;
+}
+
+#cartOrderTableWrapper .productName
+{
+	width: 150px;
+}
+.SaveForLaterCartListHead
+{
+    line-height: 15pt;
+    padding-left: 5px
+}
+
+.RejectHead
+{
+    background-color: #c0504d !important;
+    border-bottom:1px solid #c0504d !important;
+}
+
+.RejectItem,
+.RejectItem p
+{
+	padding:0.5em;
+}
+
+.RejectItemAlt,
+.RejectItemAlt p
+{
+    background-color: #e6b9b8 !important;
+}
+
+.PriceListTable
+{
+    border-color:#000000;
+    font-size:8pt;
+    border-collapse:collapse;
+    width: 400px;	
+}
+
+.PriceListHead
+{
+    background-color: #00598b;
+    border-bottom: #515151;
+    border-left: #515151 1px solid;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 20pt;
+    padding-left: 5px;
+    text-align: right;   
+}
+
+.PriceListItem
+{
+    background-color: #ffffff;
+    border-bottom: #515151;
+    border-left: #515151 1px solid;
+    font-size: 11px;
+    padding-left: 5px;
+     padding-right: 5px;
+     text-align: right;
+}
+
+.PriceListItemAlt
+{
+    background-color: #f2f2f2;
+    border-bottom: dimgray;
+    border-left: dimgray 1px solid;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.PriceListFooter
+{
+    background-color: #00598b;
+    line-height: 10pt
+}
+.smalltext {
+    font-size:10px;
+    line-height:12px;
+}
+
+.ItemsAssignAllDiv
+{
+    float:right;
+    position: relative;
+    right: 10px;
+	padding: 10px 0;
+}
+
+.MailingItemsTablesSubTitle
+{
+    display:inline-block;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-weight: bold;
+}
+
+.TablesTitle
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#ctl00_cphMainContent_lblCustomerNote {
+	color: #fff;
+	padding:0.5em;
+	background-color:#511c6c;
+	border-radius:4px 4px 0 0;
+}
+
+#ctl00_cphMainContent_lblCustomerNoteApproverView {
+	background-color: #d1d1d1;
+    border: 1px solid #969696;
+    border-radius: 0 4px 4px 4px;
+	display:inline-block;
+}
+
+.Blueborder {
+    border-top: 3px solid #17596f;
+}
+
+.SubSectionTable
+{
+    padding: 5px;
+    width: 350px;
+    text-align : left;
+    margin-bottom:5px;
+
+}
+
+.tablehead td{
+    /* border-bottom-color: #00FF00; */
+    border-bottom: #b9a4c4 solid 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tablerow td{
+    border-bottom: #d1d1d1 solid 1px;
+    font-size: 11px;
+    font-weight: normal;
+    height: 14px;
+}
+
+.SiteLink
+{
+    text-decoration: none;
+    font-size: 12px;
+}
+.SiteLink:hover
+{
+}
+
+DIV.LoadingDivHeader
+{
+    /* border: solid 1px #6A88AE;
+    background-color: ghostwhite; */
+    FONT: statusbar;
+    font-style: oblique;
+    text-decoration: blink;
+    background-position: center center;
+    background-image: url(wait.gif);
+    background-repeat: no-repeat;
+    LEFT: 2px;
+    WIDTH: 148px;
+    height: 12px;
+    POSITION: absolute;
+    padding-left: 2px;
+    TOP: 2px;
+}
+
+.ShippingPanel
+{
+    
+}
+
+
+.ShippingAddressBoxHeader
+{
+    padding-left: 5px;
+}
+
+.ShippingAddressBoxCell
+{
+    overflow: hidden;
+}
+
+.ShippingAddressBox
+{
+    background-color: #d1d1d1;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+.ShippingAddressBoxFooter
+{
+    background-color: #d1d1d1;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+
+
+.CheckoutAddressHeading table 
+{
+    position: relative;
+    left: -70px;
+}
+
+.MailingAddressItems
+{
+    background-color: White;
+    margin-right: 20px;
+    position: relative;
+    top: 10px;
+}
+
+
+.ShippingAddressItems
+{
+    background-color: White;
+    position: relative;
+    top: 10px;
+    vertical-align: top;
+	width:880px;
+}
+
+.ShippingAddressItemsContainer
+{
+    background-color: White;
+    position: relative;
+    top: 10px;
+    clear:both;
+    padding:5px;
+	width:905px;
+}
+
+.MailingGridCell
+{
+    margin-left: 10px;
+    border-left: solid 1px #b9a4c4;
+    border-top: solid 1px #b9a4c4;
+    border-bottom: solid 1px #b9a4c4;
+    width: 650px;
+}
+
+.MailingGridServicesCell
+{
+    padding-left: 10px;
+    border-left: solid 1px #b9a4c4;
+    border-right: solid 1px #b9a4c4;
+    border-top: solid 1px #b9a4c4;
+    border-bottom: solid 1px #b9a4c4;
+    width: 250px;
+}
+
+
+
+
+
+.AddressBody {	
+    font-size: 12px;
+    font-weight: normal;		
+    text-align: left;
+}
+
+.AddressBlock 
+{
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    overflow: auto;
+    clear: both;
+    background-color: #aeaeae; /* was f3f3f3 */
+    vertical-align: top; 
+    width: 96%; 
+    margin-bottom: 15px;
+    text-align: left;
+}
+/*
+.AddressBlock
+*/
+.AddressHeading 
+{
+    position: relative;
+    clear: both;
+    display: inline-block;
+    font-weight: bold;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.AddressSub
+{
+    position: relative;
+    clear: both;
+    display: inline-block;
+    float: left;
+    font-size: 11px;
+}
+
+.AddressEditButton
+{
+    position: relative;
+    float: left;
+    padding-left: 5px;
+    font-weight: bold; 
+    padding-top: 16px;
+}
+
+.ShippingAddressHeading
+{
+    position: relative;
+    float: left;
+    clear: both;
+    font-weight: bold; 
+    padding-top: 20px;
+    display: block;
+}
+
+.AddressNote
+{
+    position: relative;
+    clear: both;
+    display: inline-block;
+	margin-left:5px;
+    float: left;
+    font-size: 14px;
+    padding-top: 10px;
+    white-space:normal;
+}
+
+.CheckoutTable
+{
+    border-color: Black;
+    border-width:1px;
+    margin-left:5px;
+    margin-bottom:5px;
+}
+
+.CheckoutTable td
+{			
+    border-right-color: Black;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.CheckoutHead
+{
+    background-color: #00598b;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.CheckoutItem
+{
+    background-color: #FFFFFF;    
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 150px;
+}
+
+.CheckoutItemAlt
+{
+    background-color: #F2F2F2;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;    
+}
+
+.DeliveryStatus
+{
+    border-bottom: dimgray;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15pt;		
+}
+
+.TrackingLink
+{
+    border-bottom: dimgray;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 15pt;
+}
+
+.LoadDivTransparent
+{
+    z-index:9997; 
+    visibility: hidden;
+    background-color: white;          
+    position:absolute;  
+    left: 0px;  
+    top: 0px;  
+    filter:alpha(opacity=0);
+    -moz-opacity:.0;
+    opacity:.0;
+}
+
+.LoadDiv
+{
+    z-index:9998; 
+    visibility: hidden;
+    background-color: black;          
+    position:absolute;  
+    left: 0px;  
+    top: 0px;  
+    text-align: center;
+    vertical-align: middle;        
+    filter:alpha(opacity=20);
+    -moz-opacity:.20;
+    opacity:.20;
+}
+.LoadDivImg
+{
+    z-index:9999; 
+    visibility: hidden;
+    position:absolute;
+    top: 48%; 
+    left: 48%;		
+}
+
+.dgRecipientsComments
+{
+    background-color:#aeaeae;
+}
+
+.SinglePrice
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+.SinglePriceCurrency
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.productgridview div.productPrice
+{
+    text-align: left;
+}
+
+.productPriceInList, 
+.productPriceInGrid
+{
+    font-size: 14px;
+    font-weight: bold;	
+    vertical-align: baseline;
+}
+
+.productGridPriceFrom
+{
+    font-size: 9px;
+    font-weight: normal;
+    vertical-align: baseline;
+    margin-right: 2px;
+}
+
+
+.productGridCurrency
+{
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 2px;	
+    vertical-align: baseline;
+}
+
+.productListPriceFrom
+{
+    font-size: 9px;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+
+
+
+.productListCurrency
+{
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: baseline;
+}
+
+
+.ProductDescMain { }
+.ProductDescMainText 
+{
+    float: none;
+    /*float: left;*/
+    /*width: 260px;*/
+}
+.ProductDescMainSlide
+{
+    float:none;
+    /*float: left;*/
+}
+.ProductDescMainSpacer 
+{
+    float:none;
+    /*float: left;*/
+    width: 25px;
+    height: 20px;
+}
+
+.groupDesc
+{
+    FONT-SIZE: 13px;
+    FONT-WEIGHT: normal;
+	margin-left:1.4em;
+	margin-top:1em;
+	color:#515151;
+	padding-left:1.4em;
+}
+
+/* BUTTON STYLE'S */
+.ButtonAreaHelpButton
+{
+    background-image: url(header_help.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+.ButtonAreaCartButton
+{
+    background-image: url(header_cart.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+}
+.ButtonAreaAccountButton
+{
+    background-image: url(header_account.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+}
+.ButtonAreaLogoutButton
+{
+    background-image: url(header_logout.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+}
+.ButtonAreaDraftButton
+{
+    background-image: url(header_draft.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;	
+}
+.ButtonAreaHomeButton
+{
+    background-image: url(header_home.gif);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+}
+
+.SimpleSearchBtn
+{
+    background-image: url(search_glass.png);
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 17px;
+    display: block;
+    padding: 0px;	
+    border: 0px;
+    cursor: pointer;
+}
+.SimpleSearchBtn:hover { background-image: url(search_glass_hover.png); }
+
+.Expand 
+{
+    background-image: url(expand.png);
+    background-repeat: no-repeat;
+    height: 13px;
+    width: 13px;	
+    padding-left: 17px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.Collapse
+{
+    background-image: url(collapse.png);
+    background-repeat: no-repeat;
+    height: 13px;
+    width: 13px;	
+    padding-left: 17px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.OrderButton 
+{
+    
+}
+
+.PagerStyle
+{
+    margin: 1px;
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.PagerTop .PagerStyle
+{
+    padding-top: 0;
+}
+
+.PagerBottom .PagerStyle
+{
+    padding-bottom: 0;
+}
+
+.PagerHyperlinkStyle
+{    
+    padding: 1px 3px;
+    font-weight: 100;
+    background: #f7f7f7;
+    border: 1px solid #d1d1d1;	
+    text-decoration: none;
+    margin: 0 1px;
+    font-weight: 100;
+    font-size: 10px;    
+}
+a.PagerHyperlinkStyle { color: #515151; }
+.PagerHyperlinkStyle:hover
+{
+    background: #d1d1d1;
+    border: 1px solid #515151;
+}
+.PagerDisabledHyperlinkStyle
+{
+    padding: 1px 3px;
+    font-weight: 100;
+    background: #fdfdfd;
+    border: 1px solid #d1d1d1;		
+    margin: 0 1px;
+    font-weight: 100;
+    font-size: 10px;    
+}
+.PagerCurrentPageStyle
+{
+    padding: 1px 3px;
+    font-weight: 100;
+    background: #f7f7f7;
+    border: 1px solid #d1d1d1;	
+    text-decoration: none;
+    margin:0 1px;
+    font-weight: 100;
+    font-size: 10px;    
+    background: #515151;
+    border: 1px solid #515151;
+}
+.KeywordsPanel
+{
+}
+.KeywordLink
+{
+    text-decoration:underline;
+    font-size: 12px;
+}
+
+.DrafOrderButton
+{
+    cursor:pointer;	
+}
+
+.StepDescription
+{    
+    font-size: 11px;
+	margin-bottom:1em;
+}
+
+.CouponBar
+{
+    background-color: #d1d1d1;
+}
+
+.CouponDiscountCell
+{
+    width:15%;
+    text-align:center;
+}
+
+.ClearingGatewayMessage
+{
+    white-space: normal;
+    display: block;
+}
+    
+.WizardButtonsContainer > div
+{
+    margin-right: 12px;
+}
+
+.ItemsAddressContainer
+{
+    vertical-align: top; 
+    width: 100%; 
+    overflow:hidden; 
+    float: left; 
+    clear:both; 
+    margin-top: 15px;
+	border-radius:4px;
+}
+
+.ItemsGridContainer
+{
+	vertical-align: top; 
+	width: 99%; 
+	margin-bottom: 5px; 
+	margin-top: 5px;
+	border: 1px;
+	text-align: left;
+}
+
+.AddressGridContainer
+{
+    vertical-align: top; 
+    width: 98%; 
+	position:relative;
+    border: 1px;
+}
+
+.WizardContainer
+{
+    border: solid 1px #511c6c;
+    overflow: hidden;
+}
+
+.WizardContent
+{
+    padding-left: 15px;
+	padding-bottom: 10px;
+}
+
+.WizardBreadCrumb
+{
+    background-color: #F0F5FA;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.WizardStepHeadingText
+{
+    padding-left: 10px;
+}
+
+.WizardSubLabel
+{
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    float:left;
+    clear: both;
+    position: relative;
+    top: 8px;
+    text-align: left;
+    padding-bottom: 4px;
+    margin-bottom: 15px;
+}
+
+.WizardLabel
+{
+    font-size: 14px;
+    display: block;
+    float:left;
+    clear: both;
+    position: relative;
+    top: 8px;
+    text-align: left;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.WizardLabelNoRecords
+{
+    font-size: 14px;
+    display: block;
+    float:left;
+    clear: both;
+    top: -10px;
+    position: relative;
+    vertical-align: middle;
+    text-align: left;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.WizardStepHeading
+{
+    font-size: 14px;
+    width: 100%;
+    display: block;
+    float:left;
+    clear: both;
+    text-align: left;
+    padding-bottom: 4px;
+}
+
+.WizardStepHeadingCurrent
+{
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+    display: inline;
+    float:left;
+    clear: both;
+    text-align: left;
+    padding-bottom: 4px;
+}
+
+.WizardSubHeading
+{
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    /*left: 0px;*/
+    top: 8px;
+    float: left;
+    clear:both;
+    display: block;
+    margin-right: 170px;
+    padding-bottom: 25px;
+}
+
+.WizardStepsNextPrevSpace
+{
+    width:62%;
+}
+
+.WizardDivider
+{
+    height: 10px;
+}
+
+.SplitWizardAddNewAddress
+{
+    float: left;
+    position: relative;
+    right: 15px;
+}
+.WizardHeader
+{
+    text-align:center;
+}
+.WizardHeader .XmpImageButton
+{
+	float:right;
+	margin:10px 20px;
+}
+
+.OrderPriceLabelWidth {	width: 500px; }
+
+.RegisterLink {	margin: 10px 20px 10px 20px; }
+
+/*-- CaptchaControl styles start --*/
+.CaptchaContainer { margin: 7px 15px 10px 137px; }
+
+.captcha {}
+
+.captcha SPAN
+{
+    font-size: 11px;
+}
+
+.captcha INPUT
+{
+    font-size: 11px;
+}
+/*-- CaptchaControl styles end --*/
+
+.OrderPriceContainer
+{
+    border: solid 2px #511c6c;
+    padding: 15px 35px 15px 15px;
+}
+
+.LockedUserDiv
+{
+    margin:0px 100px;
+    height: 255px;
+    width: 470px;
+    border: solid 1px #C6CCD9;
+    padding: 50px;
+}
+
+.LockedUserTitle
+{
+    color: Red;
+}
+
+
+
+
+
+.LoginPasswordExpired {
+    border: solid 1px #C6CCD9;
+    width: 454px;
+}
+.LockedUser
+{
+    border: solid 1px #C6CCD9;
+    width: 454px;
+    text-align: center;
+}
+
+/*-- CaptchaControl styles end --*/
+
+.MerchantAddressBody {	
+    font-size: 11px;
+    font-weight: normal;		
+    text-align: left;
+}
+
+.RegisterPendingDiv
+{
+    margin-left:20px;
+    margin-top:40px;
+    line-height:20px;
+}
+
+.ActivationDiv
+{
+    margin-left:20px;
+    margin-top:40px;
+    line-height:20px;
+}
+
+.AccountNotActivatedDiv
+{
+    margin-left:20px;
+    margin-top:40px;
+    line-height:20px;
+}
+/* -- Address List (begin)  -- */
+.addressItemTable
+{
+    border: solid 1px #d1d1d1;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;	
+}
+.addressItemHead
+{
+    background-color: #b9a4c4;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;	
+	padding-top:2px;
+	font-size:13px;
+}
+.addressItemBody
+{
+    background-color: #ffffff;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;		
+}
+
+.personName {
+	color:#333333 !important;
+}
+
+#tblNumCopies #lblNumCopiesWrapper {
+    width: 100px;
+}
+/* -- Address List (end)  -- */
+
+/*  ----------------------------------------------------------------------------------------------- */
+/*  ------------------         PRODUCT LIST: BOTH LIST and GRID STYLES              --------------- */
+/*  ----------------------------------------------------------------------------------------------- */
+div.productListTable
+{
+    border: solid 1px transparent;	
+}
+
+div.productListTable:hover
+{
+    border: solid 1px #d1d1d1;	
+    background-color: #b9a4c4;	/* was #ececec */     
+}
+
+div.productListTable div.thumbnail
+{
+    border: solid 1px #d1d1d1;
+    background-color: #ffffff;
+    padding: 9px 3px 3px 3px;
+    border-radius: 6px;
+}
+
+div.productListTable div.productname a
+{    
+    text-decoration: none;
+	color:#3F3F3F;
+}
+
+/*  ----------------------------------------------------------------------------------------------- */
+/*  ------------------                            LIST                              --------------- */
+/*  ----------------------------------------------------------------------------------------------- */
+
+div.productlistview
+{
+    padding: 9px;
+    width: 745px;
+    border-bottom: solid 1px #d1d1d1;
+}
+        
+div.productListTable div.productdesc a, div.productListTable div.productdesc a:hover
+{
+    font-size: 11px;
+	color:#515151;
+}
+        
+div.productlistview div.productQtyRange, div.productgridview div.productQtyRange
+{
+    font-size: 10px;
+}
+
+/*  ----------------------------------------------------------------------------------------------- */
+/*  ------------------                              GRID                            --------------- */
+/*  ----------------------------------------------------------------------------------------------- */
+
+div.productgridview
+{
+    background-color: #f4f4f4;
+	padding-bottom:10px;
+
+}
+
+.table-responsive{
+	border-width:0px !important;
+}
+
+/*  ----------------------------------------------------------------------------------------------- */
+/*  ------------------                              OVERLAY                         --------------- */
+/*  ----------------------------------------------------------------------------------------------- */
+
+/* place enlarge/download buttons at bottom of thumbnail*/
+div.productlistview div.overlay
+{
+    top: auto;
+    bottom: 0;
+}
+
+div.productListTable div.overlay div
+{
+    width: 108px;
+}
+
+div.productlistview div.overlay div, div.productlistview div.overlay div:hover,
+div.productgridview div.overlay div, div.productgridview div.overlay div:hover
+{
+    background-color: #e8e8e8 !important;	/*was #e8e8e8*/
+}
+
+div.productListTable .productDownload
+{
+    border-color: #d1d1d1;
+}
+
+.productgridview .productEnlarge
+{
+    border-radius: 6px 0 0 0;
+}
+.productgridview .productDownload
+{
+    border-radius: 0 6px 0 0;
+}
+.productlistview .productEnlarge
+{
+    border-radius: 0 0 0 15px;
+}
+.productlistview .productDownload
+{
+    border-radius: 0 0 15px 0;
+}
+/*  ----------------------------------------------------------------------------------------------- */
+/*  -----------------------                   END OVERLAY                         ----------------- */
+/*  ----------------------------------------------------------------------------------------------- */
+.SecondaryCurrencyLabel {
+    font-size: 10px;
+    width: 150px;
+}
+.ShoppingCartSecondaryCurrencyLabel {
+    font-size: 10px;
+}
+.ShoppingCartPriceTD
+{
+    text-align:right;
+    padding:2px;
+}
+
+.ShoppingCartControl .productName, .ShoppingCartControl .editProduct
+{
+    clear: left;
+    width: auto;
+}
+.ShoppingCartControl .productName
+{
+
+}
+.ShoppingCartControl .editProduct
+{
+    background-image: none;
+    padding-left: 0;
+}
+
+
+.BoldPriceLabel
+{
+    font-weight:bold;
+}
+
+.OrderPriceTable td.tdAmount
+{
+    width: 150px;
+}
+
+.MailingItemsTablesSubText
+{
+    font-weight:bold;
+}
+.OrderDetailsBoldPriceLabel
+{
+    font-weight:bold;
+}
+.OrderDetailsPriceSummaryCaption
+{
+    width:50%;
+	text-align:left;
+}
+.PaymentCurrencyMessage
+{
+    font-size:10px;
+}
+.OrderDetailsPaymentCurrency
+{
+    width:40%;
+}
+.OrderDetailsPriceSummarySpace
+{
+    width:10%;
+}
+
+.OrderFinalStep_Proof_XmpImageButton 
+{   display: none;
+
+}
+
+div.proofLink span,div.proofLink a {
+	height: 40px;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding: 0 20px;
+    font-size:18px;
+    line-height: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight:normal;
+	background-color: #511c6c;
+	color: #ffffff !important;
+	box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+div.proofLink span,div.proofLink a:hover {
+	background-color:#aeaeae;
+}
+
+div.proofLink span,div.proofLink a:active {
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+}
+
+/* Customization DUCs*/
+
+.dtiStringTextBox
+{
+	width: 80%;
+}
+
+.Duc dt, .Duc dd {
+	float:none !important;
+}
+
+.dddlValue select
+{
+	width: 257px;
+}
+
+/* IconDescriptionList DUC */
+.trOptionRepeater.hover
+{
+    cursor: pointer;
+}
+.trOptionRepeater.selected
+{
+    background-color : #e8e8e8;
+}
+
+.trOptionRepeater .optionTitle
+{
+    font-weight:bold;
+}
+
+/* IconTitleGallery DUC */
+.divOptionRepeater
+{
+    width:100px;
+    height:85px;
+    float:left;
+    padding:10px;
+    text-align:center;
+}
+
+.divOptionRepeater.hover
+{
+    cursor: pointer;
+    font-weight:bold;
+}
+.divOptionRepeater.selected
+{
+    font-weight:bold;
+}
+.divOptionRepeater .imgIconWrapper
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.FieldOptionItem.FOGrid.selected .optionTitle
+{
+    color : #511c6c;
+}
+
+.roundedCorners
+{
+    padding: 0;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border: solid 1px #000000;
+}
+
+.divOptionRepeater.selected .imgIconWrapper
+{
+    border: solid 3px #511c6c;
+}
+
+#divClearFloat
+{
+    clear:left;
+}
+
+.CheckOutPage .cartSummary
+{
+    margin-top: -50px;
+}
+* ul.CheckOutPage .cartSummary
+{
+    margin-top: 0;
+}
+
+.CheckOutPage .cartSummary .detailBackground
+{
+    background-color: #e8e8e8;
+}
+
+.CheckOutPage .cartSummary .totalBackground
+{
+    background-color:#aeaeae;
+}
+
+/* new navigation */
+
+header{
+}
+
+/* placeholder for logo and welcome message */
+nav {
+}
+
+header ul li {
+	display: inline-block;
+	padding:.2em;
+}
+
+header li.links{
+	position: absolute;
+	right: 0;
+	top: 15px; 
+	margin-right:34px;				
+}
+
+#fullpage header li.links > div{
+	float: right;
+	margin-right: 20px;
+	margin-left: 100px;
+}
+
+#fullpage header li.links a {
+	display: inline-block;
+	margin-left: 10px;
+	text-decoration: underline;
+	color:#d1d1d1 !important;
+}
+
+.ie7 nav ul li, .ie7 #fullpage nav li.links a {
+	display: block;
+	float: left;
+}
+
+#fullpage ul .links a {
+	font-size: 11px;
+}
+
+.menuButton {
+	font-size: 14px;
+	min-width: 60px;
+	height: 34px;
+	margin: 5px 2px;
+	*margin: 5px 2px; 
+	padding: 0 15px;
+	text-align: center;
+	background-color: #17596f;
+	border-radius:4px;
+	box-shadow:4px 4px 4px #111111;
+	-moz-box-shadow:4px 4px 4px #111111;
+	-webkit-box-shadow:4px 4px 4px #111111;
+}
+			
+.storeButton.menuButton  {
+}
+
+.accountButton.menuButton  {
+}
+
+.cartButton.menuButton  {
+}
+					
+.menuButton a {
+	display: block;
+	height: 100%;
+	line-height: 34px;
+	color:#ffffff !important;
+}
+			
+.menuButton:hover{
+	background-color:#aeaeae !important;
+}			
+
+.storeButton.menuButton:hover {        
+}
+
+.accountButton.menuButton:hover {        
+}
+
+.cartButton.menuButton:hover {        
+}
+
+.menuButton:active{
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #111111;
+	-moz-box-shadow:2px 2px 2px #111111;
+	-webkit-box-shadow:2px 2px 2px #111111;
+}
+
+.menuButton.selected:active a {
+	font-weight: normal;
+	color:#ffffff !important;
+}			
+
+.WizardButtonsContainer div { 
+    display: inline-block; 
+}
+
+.WizardButtonsContainer .back,
+.productDetailsBack,
+.backLinkContainer,
+.orderApprovalListBackButtonWrapper
+{
+    background: transparent url(back_arrow.png) no-repeat 20px center;
+}
+
+.backLinkContainer
+{
+	padding: 12px 0;
+}
+
+.ie7 .WizardButtonsContainer div { display: inline; }
+
+div.SaveDraftButtonContainer { float: right; }
+
+.orderApprovalListBackButtonWrapper
+{
+	padding-top: 50px;
+	background-position: 20px 57px;
+}
+/* -- flags and currency (begin) -- */
+div.XmpImageDropDownList
+{
+    background-image: url(dropdown_arrow_white.png);
+}
+
+ul.choices li
+{
+    background-color: #aeaeae;
+}
+    
+div.flagList, div.dropDownCurrencies
+{
+    float: none;
+    position: absolute;
+    top: 35px;
+}
+div.flagList
+{
+    right: 47px;
+}
+div.dropDownCurrencies
+{
+    right: -4px;
+    width: 45px;
+}
+
+div.XmpImageDropDownList a.toggler 
+{
+    border: 1px solid #d1d1d1;
+}
+
+div.XmpImageDropDownList:hover
+{
+    border: solid 1px transparent;
+}
+/* -- flags and currency (end) -- */
+#TdBottomLogo, #TdBottomMenu
+{
+    display: none;
+}
+
+.ThemedPageMaster #bodyarea
+{
+    text-align: left;
+    border-width: 0;
+    /* z-index: 1; */
+    overflow: hidden;
+ 
+}
+
+/* faux column affect for product category tree (#navArea) */
+.ThemedPageMaster #bodyarea:before
+{
+    width: 172px;
+    z-index: -1;
+    position: absolute;
+    background-color: rgb(232, 232, 232);
+    top: 31px;
+    bottom: 0;
+    content: "";
+}
+
+.ie8 .ThemedPageMaster #bodyarea:before
+{
+    bottom: 0;
+}
+
+.ie7 #content
+{
+    border-right: solid 1px #aeaeae; 
+    width: 793px; 
+}
+    
+ .ThemedPageMaster #searcharea, .ThemedPageFullWidth.Master #searcharea
+{
+
+	z-index: 2;
+	/*top: 89px;
+	left: 172px; */
+    /* background-image: none; */
+	width: 100%;
+}
+
+.mainarea 
+{
+    background-color: #FFFFFF;
+    border-width: 0px;
+    min-height: 380px;
+    width: 100%;
+
+}
+#contentArea {
+    display: inline-block;
+    float: right;
+   width: 804px; 
+    height: 100%;
+}
+
+#content {
+    background-color: #FFFFFF;
+    height: auto;
+    min-height: 480px;
+}
+
+#navArea
+{
+
+    width: 220px;
+    overflow: none; 
+    float: left;
+}
+
+.ie7 #navArea
+{
+    background-color: #ffffff;
+}
+
+#fullpage.ThemedPageMaster #navArea,
+#fullpage.LoginMaster #navArea
+{
+    padding-top: 20px;
+	
+}
+#fullpage.ThemedPageMaster #bodyarea {
+    float: left;
+	background: url(bodyarea.gif) repeat-y 0 0;
+} 
+#fullpage.LoginMaster #bodyarea
+{
+    float: left;
+}
+
+.LoginMaster .flagList
+{
+    position: absolute;
+    right: 20px;
+    top: 85px; 
+
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:visited {
+    text-decoration: none;
+}
+
+.treeViewContainer
+{
+    display:block;
+    width:220px;
+    height: auto;
+	padding: 8px 0;
+}
+
+
+/* ---THEME COLORS--- */
+body,
+.explanation,
+.formfield,
+.tablerow td,
+
+.nav,
+.captcha SPAN,
+input,
+select,
+textarea
+{
+    color: #333333;
+}
+
+select
+{
+    color: #333333;
+	font-size: 14px;
+    font-weight: normal;
+	border:1px solid #aeaeae;
+	border-radius:4px;
+	background-color:#d1d1d1;
+	margin: 1px 0;
+}
+
+select:focus{
+	border:1px solid #17596f;
+}
+
+select.form-control{
+	background-color:#ffffff;
+}
+
+.rtcontentcol,
+DIV.LoadingDivHeader,
+.productPriceInList,
+.productPriceInGrid,
+.productGridCurrency,
+.productListCurrency,
+a.AccountLinks, a.AccountLinks:hover,
+/*
+.TablesTitle,
+*/
+.LoginMaster .SmallLink,
+.SaveForLaterCartListHead,
+.FormLabel.ShoppingCartTitle
+{
+    color: #17596f;
+}
+
+.productGridPriceFrom,
+.productListPriceFrom
+{
+    color: #b9a4c4;
+}
+
+.emphasis {
+    color: #49b8a0;
+}
+
+.formbox {
+    border-radius:6px;
+	   background-color: #d1d1d1 !important;
+	  
+
+
+}
+
+
+
+.formbox .Heading2 { color:#969696; font-weight:normal; font-size:16px; }
+
+.formprompt {
+    color: #111111;
+}
+
+input, select, textarea
+{
+	border: 1px solid #aeaeae;
+	padding:.4em;
+}
+
+textarea {
+	max-width:500px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+input:focus, select:focus, textarea:focus {
+	border:1px solid #17596f;
+	outline:none;
+}
+
+input[type="checkbox"], input[type="radio"]
+{
+	border: 0 none;
+}
+/* THIS WAS TO REPLACE CHECKBOX WITH STYLED ONE - FAILED DUE TO MULTIPLE DELIVERY CHECKBOXES NOT HAVING LABELS ASSOCIATED WITH THEM
+input[type="checkbox"]{
+	display:none;
+}
+
+input[type="checkbox"] + label span{
+	display:inline-block;
+	width:40px;
+	height:40px;
+	margin:-1px 4px 0 0 ;
+	vertical-align:middle;
+	background:url(checked-not-40.png) no-repeat;
+	cursor:pointer;
+}
+
+input[type="checkbox"]:checked + label span{
+	background:url(checked-40.png) no-repeat;
+}
+*/
+.dtiName, .dmiName, .dddlName {
+    width: 80% !important;
+}
+
+#divDescription span {
+	margin-right:5px;
+}
+
+.formtitle, 
+.btnSelected, 
+.smallprompt,
+.CheckoutHead,
+.userWelcome span,
+.PriceListHead,
+.PagerCurrentPageStyle,
+#fullpage ul .links a,
+nav .menuButton:hover a,
+.nav a,
+.nav a:visited,
+.menuButton.selected a,
+div.XmpImageDropDownList li, div.XmpImageDropDownList a.toggler,
+div.dropDownCurrencies li, div.dropDownCurrencies a.toggler,
+div.dropDownCurrencies li, div.dropDownCurrencies a.toggler,
+div.XmpImageDropDownList li:hover, div.XmpImageDropDownList a.toggler:hover,
+div.dropDownCurrencies li:hover, div.dropDownCurrencies a.toggler:hover,
+div.dropDownCurrencies li:hover, div.dropDownCurrencies a.toggler:hover
+{
+    color: #ffffff;
+}
+
+a.XmpImageButton_style1_link,
+.XmpImageButton_Items_AssignAll,
+a.XmpImageButton_ThemeColorLink, a.XmpImageButton_ThemeColorLink:link
+{
+    color: white!important;
+}
+
+
+.leftbar,
+.searchprompt,
+.WizStepSel,
+.addressItemBody,
+.addressItemHead .tooltip,
+.MerchantAddressBody,
+.AddressBody,
+.tablehead td,
+.FilePick,
+.PageTitle,
+.PriceListItemAlt,
+.CheckoutItem,
+.CartListItem,
+.CartListItemAlt,
+.PriceListItem,
+.CheckoutItemAlt
+{
+    color: #000000;
+}
+
+/*  -----  reds  -----  */
+
+.Error,
+.formpromptred,
+.LockedUserTitle
+{
+    color: #ff0000;
+}
+
+.SinglePrice
+{
+    color: #f99d2a;
+}
+
+
+/*  -----  grays  -----  */
+
+.WizStep,
+.SecondaryCurrencyLabel
+{
+    COLOR: #969696;
+}
+
+.disabledElement,
+.PagerDisabledHyperlinkStyle
+{
+    color: #d1d1d1;
+}
+
+/*  -----  blues  -----  */
+
+.Tooltip {
+    color: #333333;
+}
+
+.btnUnselected,
+a:hover
+{
+    COLOR: #000088;
+}
+
+/*  -----  greens  -----  */
+
+.CouponInfoMessage
+{
+    color:Green;
+}
+
+/*  -----  end r,g,b colors  -----  */
+
+.THFontText, .RTHFontText {
+    COLOR: darkblue; 
+}
+
+.divOptionRepeater.selected,
+.trOptionRepeater.hover
+{
+    color: #511c6c;
+}
+
+
+.FormButton
+{	
+    color: #17596f;
+}
+
+.RejectText
+{
+    color: #c0504d !important;    
+}
+
+.MailingItemsTablesSubTitle
+{
+    color: #1F497D;
+}
+
+.SinglePriceCurrency
+{
+    color: #515151;
+}
+
+.WizardStepHeadingCurrent
+{
+    color: #17596f;
+}
+
+
+/* background-color: */
+.formbox,
+.LockedUserDiv,
+.LoginPasswordExpired,
+.LockedUser
+{	
+    background-color: #efefef;
+}
+
+/*  -----  */
+
+.ShoppingCartSecondaryCurrencyLabel {
+}
+
+/* hide header signin link on login page */
+.LoginMaster a.signin
+{
+    display: none !important;
+}
+
+/*   -----  move cart summary to top right ----- */
+/*
+.CheckOutPage #CurrentCartSummary
+{   position: absolute;
+    right: -350px;
+    top: 155px;    
+    height: 150px;
+}
+*/
+
+/* BOTTOM NAVIGATION */
+
+/* CheckoutPaymentSubmission */
+
+.WizardButtonsContainer .next, .WizardButtonsContainer .finish
+{
+    float: right;
+    margin-right: 12px;
+}
+
+
+.WizardButtonsContainer .cancel
+{
+    display: none;
+}
+.checkoutFinalBack, .productDetailsBack
+{
+    float: left;
+}
+ .checkoutFinalCheckout, 
+ .productDetailsContinue, 
+ .checkoutFinalNext
+ {
+     float: right;
+     margin-right: 12px;
+	 margin-bottom:5px;
+ }
+
+
+/* product categories tree placement */
+.ThemedPageMaster #bodyarea:before
+{
+    left: 0;
+}
+.ThemedPageMaster #bodyarea:after
+{
+    right: 0;
+}
+
+
+
+/* File submission - part of this should be moved to default.css */
+
+.propertyList
+{
+}
+
+
+.propertyLink
+{
+    color: #394a6a !important;
+}
+.propertyLink:visited
+{
+    color: #394a6a !important;
+}
+.propertyLink:hover
+{
+    color: #000088 !important;
+}
+
+.WizardStepsNavControl
+{
+	width:712px;
+	padding-bottom:10px;
+	border-bottom: none;
+	margin-bottom: 0;
+}
+
+#productDetailsContainer .WizardStepsNavControl
+{
+	margin-bottom: 0;
+}
+
+.XmpTooltipPopup TR
+{
+    vertical-align:top;
+}
+
+.XmpTooltipPopup TD
+{
+    padding: 3px 10px 3px 5px !important;
+}
+
+/* GalleryGridView/GalleryListView (aka IconTitleGallery/IconDescriptionList) DUC styles per skin (other styles are in default) */
+.FieldOptionItem.selected.FOGrid .optionIcon
+{
+    border: 3px solid #511c6c;
+}
+
+.FieldOptionItem:hover
+{
+    color: #778890;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////// working XmpieButton styles begin ////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.XmpImageButton, #ctl00_cphMainContent_ItemsDataGrid_ctl00 td a
+{
+    border-radius: 4px;
+    margin-right: 5px;
+    padding: 8px 14px;
+    font-size:16px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight:normal;
+}
+
+
+.XmpieTransparentButton
+{
+    background-color: transparent;
+}
+
+.XmpieThemeColorButton,
+.XmpieThemeColorButtonMAG,
+.XmpieDisabledButton,
+.XmpieCancelButton,
+.XmpieRejectButton,
+.XmpieAcceptButton,
+.XmpieApproveButton,
+.XmpieModifyButton,
+.XmpieClearButton,
+#ctl00_cphMainContent_ItemsDataGrid_ctl00 td a
+{
+    color: #ffffff !important;
+    text-decoration: none!important;
+}
+
+.XmpieThemeColorButton, #ctl00_cphMainContent_ItemsDataGrid_ctl00 td a
+{
+    background-color: #511c6c;
+	box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+.XmpieThemeColorButton:hover,
+.XmpieClearButton:hover, 
+.XmpieThemeColorButton.Hover,
+#ctl00_cphMainContent_ItemsDataGrid_ctl00 td a:hover /*    file submission upload fakeBtn    */
+{
+    background-color: #aeaeae;
+}
+
+.XmpieThemeColorButton:active, #ctl00_cphMainContent_ItemsDataGrid_ctl00 td a:active
+{    
+    background-color: #aeaeae;
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+}
+
+.XmpieThemeColorButton[disabled],
+.XmpieRejectButton[disabled],
+.XmpieApproveButton[disabled],
+.XmpieBackLink[disabled],
+.XmpieModifyButton[disabled]
+{
+    background-color: #aeaeae;
+}
+
+#btnCheckoutdisabled{
+	cursor:default;
+	transform: translate(4px, 4px);
+	-moz-transform: translate(4px, 4px);
+	-webkit-transform: translate(4px, 4px);
+	-ms-transform: translate(4px, 4px);
+	-o-transform: translate(4px, 4px);
+	box-shadow:0 0 0 #ffffff;
+	-moz-box-shadow:0 0 0 #ffffff;
+	-webkit-box-shadow:0 0 0 #ffffff;
+}
+
+.XmpImageButton.HideDisabled[disabled],
+.XmpieHiddenButton
+{
+    display: none;
+}
+
+.XmpieClearButton{
+	font-weight:bold;
+	background-color: #17596f;
+    box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+.XmpieClearButton:hover{
+	background-color: #aeaeae;
+}
+
+.XmpieClearButton:active{
+	background-color: #aeaeae;
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+}
+
+#ctl00_cphMainContent_ucDialCustomization_updatePanelDummy{
+	margin-left:110px;
+}
+
+a.XmpieBackLink
+{    
+	text-decoration: none;
+	display: inline-block;
+	font-weight:normal;
+	background-color: #ffffff;
+	text-decoration: none!important;
+	margin-left: 25px;
+	padding: 4px 7px;
+	font-size:16px;
+	font-weight: normal;
+	color: #511c6c;
+	border:1px solid #d1d1d1;
+	box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+a.XmpieBackLink:hover{
+	color: #ffffff !important;
+    background-color: #aeaeae;
+	border:1px solid #aeaeae;
+}
+
+a.XmpieBackLink:active{
+	background-color: #aeaeae;
+	border:1px solid #aeaeae;
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+}
+
+#ctl00_cphMainContentFooter_btnBack tbody tr td a, #ctl00_cphMainContent_btnCancel tbody tr td a, #ctl00_cphMainContent_btnSplit/* For "My Account > Recipient List" & "My Account > Addresses", "Cancel" and "Split Shipping"buttons*/
+{    
+    background-color: #ffffff;
+    text-decoration: none!important;
+    margin-left: 25px;
+	padding: 4px 7px;
+    font-size:16px;
+    font-weight: normal;
+    color: #511c6c !important;
+	border:1px solid #d1d1d1;
+	border-radius:4px;
+	box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+#ctl00_cphMainContentFooter_btnBack tbody tr td a:hover, #ctl00_cphMainContent_btnCancel tbody tr td a:hover, #ctl00_cphMainContent_btnSplit:hover{
+	color: #ffffff;
+    background-color: #aeaeae;
+	border:1px solid #aeaeae;
+}
+
+#ctl00_cphMainContentFooter_btnBack tbody tr td a:active, #ctl00_cphMainContent_btnCancel tbody tr td a:active, #ctl00_cphMainContent_btnSplit:active{
+	background-color: #aeaeae;
+	border:1px solid #aeaeae;
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+}
+
+#ctl00_cphMainContentFooter_btnBack:active, #ctl00_cphMainContent_btnCancel:active{
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+}
+
+#ctl00_cphMainContent_btnSplit{
+	margin-right:25px;
+	float:right;
+}
+
+.XmpImageButton.TallButton
+{
+    height: 32px;
+    line-height: 32px;
+}
+
+.XmpieApproveButton {
+    background-color: #76a43b;
+	box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+.XmpieApproveButton:hover {
+    background-color: #527d29;
+}
+
+.XmpieApproveButton:active {
+    background-color: #527d29;
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+}
+
+.XmpieRejectButton, #ctl00_cphMainContent_RLManager1_lblRecipient_btnDeleteRows {    
+    background-color: #f00000;
+	box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+.XmpieRejectButton:hover, #ctl00_cphMainContent_RLManager1_lblRecipient_btnDeleteRows:hover {    
+    background-color: #a30000;
+}
+
+.XmpieRejectButton:active, #ctl00_cphMainContent_RLManager1_lblRecipient_btnDeleteRows:active {
+    background-color: #a30000;
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+}
+
+.XmpieClearButton_LinkStyle, .options
+{
+    text-decoration: underline !important;
+    padding: 0px!important;
+    font-size:12px;
+    line-height: 21px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.XmpieDisabledButton{
+    background-color:#aeaeae;
+	cursor:default;
+	transform: translate(4px, 4px);
+	-moz-transform: translate(4px, 4px);
+	-webkit-transform: translate(4px, 4px);
+	-ms-transform: translate(4px, 4px);
+	-o-transform: translate(4px, 4px);
+	box-shadow:0 0 0 #ffffff;
+	-moz-box-shadow:0 0 0 #ffffff;
+	-webkit-box-shadow:0 0 0 #ffffff;
+}
+
+.CustomDisabledButton{
+	background-color:#511c6c;
+	color:#ffffff;
+	cursor:default;
+	transform: translate(4px, 4px);
+	-moz-transform: translate(4px, 4px);
+	-webkit-transform: translate(4px, 4px);
+	-ms-transform: translate(4px, 4px);
+	-o-transform: translate(4px, 4px);
+	box-shadow:0 0 0 #ffffff;
+	-moz-box-shadow:0 0 0 #ffffff;
+	-webkit-box-shadow:0 0 0 #ffffff;
+}
+
+#dpTnCBtn{
+	float:right;
+	margin-right:35px;
+}
+
+.XmpieCancelButton, #ctl00_cphMainContent_btnCancelReject, #btnApproveFileCancel, #btnClose{
+	background-color: #ffffff;
+    text-decoration: none!important;
+    margin-left: 25px;
+	padding: 4px 7px;
+    font-size:16px;
+    font-weight: normal;
+    color: #511c6c !important;
+	border:1px solid #d1d1d1;
+	border-radius:4px;
+	box-shadow:4px 4px 4px #888888;
+	-moz-box-shadow:4px 4px 4px #888888;
+	-webkit-box-shadow:4px 4px 4px #888888;
+}
+
+.XmpieCancelButton:hover, #ctl00_cphMainContent_btnCancelReject:hover, #btnApproveFileCancel:hover, #btnClose:hover{
+	color: #ffffff;
+    background-color: #aeaeae;
+	border:1px solid #aeaeae;
+}
+
+.XmpieCancelButton:active, #ctl00_cphMainContent_btnCancelReject:active, #btnApproveFileCancel:active, #btnClose:active{
+	background-color: #aeaeae;
+	border:1px solid #aeaeae;
+	box-shadow:2px 2px 2px #888888;
+	-moz-box-shadow:2px 2px 2px #888888;
+	-webkit-box-shadow:2px 2px 2px #888888;
+	transform: translate(2px, 2px);
+	-moz-transform: translate(2px, 2px);
+	-webkit-transform: translate(2px, 2px);
+	-ms-transform: translate(2px, 2px);
+	-o-transform: translate(2px, 2px);
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////// working XmpieButton styles end //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footnotes,
+/* Pricing Table - RadGrid */
+#tdProductPricing .rgRow,
+#tdProductPricing .rgAltRow
+{
+    font-size: 10px;
+}
+
+
+#detailsTable.orderDetailsPage hr
+{
+	display: none;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////// Wizard Navigation Begin //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.WizardProgressBarContainer{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    position:relative;    
+    font-size:10PT;
+    font-weight:bold;
+    border-spacing: 0px;
+    border-collapse:separate;
+    overflow: hidden;
+
+}
+.WizardProgressBarContainer TD
+{
+    
+}
+.WizardProgressStep
+{
+    width:20%;
+    position:relative;
+	padding: 0;
+}
+.WizardProgressStep table
+{
+    width:100%;
+}
+
+.WizardProgressStepInnerTable
+{
+    width:100%;
+    border-spacing: 0px;
+
+}
+.WizStepTR, .WizStepTRSel
+{
+    position:relative;
+    width:100%;
+    height:37px;
+    line-height:37px;
+    color:White;
+    text-align:center;
+    float:left;
+    padding: 0px;
+}
+.WizStepTR[stepStatus='waiting'], .WizStepTRSel[stepStatus='waiting'] 
+{
+    background-image:url('WizardNavigation/waiting_background.png');
+    color:#515151;
+}
+.WizStepTR[stepStatus='done'], .WizStepTRSel[stepStatus='done'] 
+{
+    background-image:url('WizardNavigation/done_background.png');
+    color:WHITE;
+}
+.WizStepTR[stepStatus='active'], .WizStepTRSel[stepStatus='active'] 
+{
+    background-image:url('WizardNavigation/active_background.png');
+    COLOR:#f99d2a;
+    font-weight:bold;
+}
+
+.WizStepTR[stepStatus='waiting'] .WizStep, .WizStepTRSel[stepStatus='waiting'] .WizStepSel
+{
+    color:#515151;
+}
+.WizStepTR[stepStatus='done'] .WizStep, .WizStepTRSel[stepStatus='done'] .WizStepSel
+{
+    color:WHITE;
+}
+.WizStepTR[stepStatus='active'] .WizStep, .WizStepTRSel[stepStatus='active'] .WizStepSel
+{
+    COLOR:#f99d2a;
+    font-weight:bold;
+}
+
+
+/*left element*/
+.WizStepTR .leftElement, .WizStepTRSel .leftElement
+{
+    position:absolute;
+    top:0;
+    left:0px;
+    height:37px;
+    width:10px;
+    
+}
+.WizStepTR[stepStatus='waiting'] .leftElement
+{
+    background-image:url('WizardNavigation/waiting_middle_left.png');
+}
+.WizStepTR[stepStatus='done'] .leftElement
+{
+    background-image:url('WizardNavigation/done_middle_left.png');
+}
+.WizStepTRSel[stepStatus='active'] .leftElement
+{
+    background-image:url('WizardNavigation/active_middle_left.png');
+}
+/*right element*/
+.WizStepTR .rightElement, .WizStepTRSel .rightElement
+{
+    position:absolute;
+    top:0;
+    right:0;
+    height:37px;
+    width:10px;
+    
+}
+
+.WizStepTR[stepStatus='waiting'] .rightElement
+{
+    background-image:url('WizardNavigation/waiting_middle_right.png');
+}
+.WizStepTR[stepStatus='done'] .rightElement
+{
+    background-image:url('WizardNavigation/done_middle_right.png');
+}
+.WizStepTRSel[stepStatus='active'] .rightElement
+{
+    background-image:url('WizardNavigation/active_middle_right.png');
+}
+
+/*first left element*/
+.WizStepFirstStep[stepStatus='waiting'].leftElement
+{
+    background-image:url('WizardNavigation/waiting_first_left.png');
+}
+.WizStepFirstStep[stepStatus='done'] .leftElement
+{
+    background-image:url('WizardNavigation/done_first_left.png');
+}
+.WizStepFirstStep[stepStatus='active'] .leftElement
+{
+    background-image:url('WizardNavigation/active_first_left.png');
+}
+/*last right element*/
+.WizStepLastStep[stepStatus='waiting'] .rightElement
+{
+    background-image:url('WizardNavigation/waiting_last_right.png');
+}
+.WizStepLastStep[stepStatus='done'] .rightElement
+{
+    background-image:url('WizardNavigation/done_last_right.png');
+}
+.WizStepLastStep[stepStatus='active'] .rightElement
+{
+    background-image:url('WizardNavigation/active_last_right.png');
+}
+.WizStep
+{
+}
+
+.WizardStepImageURL
+{
+    display:none;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////// Wizard Navigation End //////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* ProductDetails page table */
+
+.productDetailsIndent
+{
+	width:6px;
+}
+
+#productDetailsContainer 
+
+{
+padding:1em;
+border-radius:4px;
+background:e0e0e0;
+
+}
+
+#videoblock { 
+padding:.2em .4em .8em 1.6em;
+margin:0;
+width:580px;
+border-radius:4px;
+background-color: #efefef;
+border:4px solid #515151;
+}
+
+.videotitle { color:#525A63;     padding: 0px!important;     margin: 0px!important;}
+.videotext { color:#999999; padding: 0px!important;    /* margin: 0px!important; */}
+
+#googlemap { padding:0; margin:0; }
+
+#googlemap p { margin:0; }
+#googlemap img {  border: 4px solid #aeaeae; 		border-radius:4px;}
+
+.InventoryInfo { color:#515151; padding-bottom:.8em;}
+.StockLevel { font-weight:bold;  border-radius:2px; padding:2px 4px; background:#5A82AA; color:#ffffff; }
+.OrderFinalStepFinalStepInventory { padding-top:1em; }
+
+
+
+/* /////////////////////////////////////////////////////  NEW Navigation Rules ///////////////////////////////////////////  */
+
+.RadTreeView_Default, .RadTreeView_Default a.rtIn, .RadTreeView_Default .rtEdit .rtIn input
+{
+color: #ffffff !important;
+font: 16px/20px Arial,sans-serif;
+display:inline;
+}
+
+.RadTreeView .rtLI
+{
+padding: 6px 0;
+display:block;
+border-bottom: thin solid #aeaeae;
+}
+
+.RadTreeView .rtHover .rtIn, .RadTreeView .rtSelected .rtIn {
+    /* padding: 0px; */
+    border-width: 0px;
+    border-style: none;
+    background-repeat: none;
+    background-position: 0px 0px;
+}
+.RadTreeView_Default .rtSelected .rtIn {
+    color: #ffffff;
+    border-color: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+	}
+	
+.RadTreeView_Default .rtHover .rtIn {
+    color: #ffffff;
+    border-color: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+	
+.RadTreeView  .rtUL li.rtLI:hover  { -o-transition: all 0.3s linear;
+					-moz-transition: all 0.3s linear;
+					-khtml-transition: all 0.3s linear;
+					-webkit-transition: all 0.3s linear;
+					-ms-transition: all 0.3s linear;
+					transition: all 0.3s linear;
+					background-color: #737373; color:#fff;
+}
+/* AW SINGLE ROW TEST */
+.RadTreeView .rtUL li ul li:hover {-o-transition: all 0.3s linear;
+					-moz-transition: all 0.3s linear;
+					-khtml-transition: all 0.3s linear;
+					-webkit-transition: all 0.3s linear;
+					-ms-transition: all 0.3s linear;
+					transition: all 0.3s linear;
+					background-color: #515151 !important; color:#fff;
+}
+ 
+.RadTreeView .rtUL li.rtLI   {  color:#fff;  }
+
+
+.rtLI .rtLast  { background:transparent !important; border-bottom:none; }
+
+
+.rtLI .rtFirst { background:transparent !important; border-bottom:none; }
+
+.RadTreeView .rtSelected  a.rtIn{ font-weight:bold; letter-spacing:1px; color:#f99d2a !important; }
+
+.RadTreeView .rtTop, .RadTreeView .rtMid, .RadTreeView .rtBot {
+    padding: 1px 0px 1px 24px !important;
+}
+
+/* /////////////////////////////////////////////////////  Tims FX Colour Palette Rules ///////////////////////////////////////////  */
+
+.BLUEback { background-color: #2895d5; }
+.BLUE75back { background-color: #acd9f4; }
+
+.PINKback { background-color: #e64ba2; }
+.PINK75back { background-color: #f889d4; }
+
+.GREENback { background-color: #6daf3d; }
+.GREEN75back { background-color: #A8C493; }
+
+.LAVback { background-color: #7053aa; }
+.LAV75back{ background-color: #b89dcf; }
+
+.TURQback { background-color: #34bcba; }
+.TURQ75back { background-color: #86d1d6; }
+
+.ORAback { background-color: #e67600; }
+.ORA75back { background-color: #fab821; }
+
+.WHITEback { background-color:#ffffff; }
+.GREYback {background-color: #666666; }
+
+.BLUE { color: #2895d5; }
+.BLUE75 { color: #acd9f4; }
+
+.PINK { color: #e64ba2; }
+.PINK75 { color: #f889d4; }
+
+.GREEN { color: #6daf3d !important; }
+.GREEN75 { color: #A8C493; }
+
+.LAV { color: #7053aa; }
+.LAV75{ color: #b89dcf; }
+
+.TURQ { color: #34bcba; }
+.TURQ75 { color: #86d1d6; }
+
+.ORA { color: #e67600; }
+.ORA75 { color: #fab821; }
+
+.WHITE { color:#ffffff; }
+.GREY { color:#7f7f7f; }
+.BLACK { color:#000000; }
+.GREYLIGHT { color:#e8e8e8; }
+
+/* /////////////////////////////////////////////////////  Tim's rad tables ////////////////////////////////////////////////   */
+
+.RadGrid_Default .rgHeader, .RadGrid_Default th.rgResizeCol { background: #511c6c !important; padding:8px 7px !important; }
+.RadGrid_Default .rgHeader, .RadGrid_Default .rgHeader a { color:#ffffff !important; font-weight:bold !important; }
+.RadGrid_Default { border-radius:4px; }
+
+.CheckOutPage .cartSummary .bottom  { height:42pt; }
+
+/* /////////////////////////////////////////////////////  Property list Table ////////////////////////////////////////////////   */
+
+
+#tdPropertyList { padding:1em; background:#ffffff; border-radius:4px; border:solid 1px #afafaf;}
+#tdPropertyList .FormLabel { padding:.4em; background:none;  margin-bottom:.6em; font-weight:bold; color:#511c6c; font-size:14px;  }
+
+.FieldOptionItem.FOList.selected { background-color:#888888; border-radius:4px; color:#e6e6e6;}
+
+
+/* /////////////////////////////////////////////////////  Tim's Super clearing ///////////////////////////////////////////  */
+
+.cf:before, .cf:after { content: ""; display: table; }
+.cf:after { clear: both; }
+.cf { zoom: 1; }
+
+
+
+.XmpieModifyButton
+{
+    background-color: #53b4cf;
+    background-image: url(XmpImageButton-StrongGreen.svg);
+    background-image: -webkit-linear-gradient(top, #53b4cf 50%, #2799b8 50%); 
+    background-image:    -moz-linear-gradient(top, #53b4cf 50%, #2799b8 50%); 
+    background-image:     -ms-linear-gradient(top, #53b4cf 50%, #2799b8 50%); 
+    background-image:      -o-linear-gradient(top, #53b4cf 50%, #2799b8 50%); 
+    background-image:         linear-gradient(top, #53b4cf 50%, #2799b8 50%);
+}
+
+
+.XmpieModifyButton:hover
+{
+    background-color: #358ea6;
+    background-image: url(XmpImageButton-StrongGreen.svg);
+    background-image: -webkit-linear-gradient(top, #358ea6 50%, #1f7b94 50%); 
+    background-image:    -moz-linear-gradient(top, #358ea6 50%, #1f7b94 50%); 
+    background-image:     -ms-linear-gradient(top, #358ea6 50%, #1f7b94 50%); 
+    background-image:      -o-linear-gradient(top, #358ea6 50%, #1f7b94 50%); 
+    background-image:         linear-gradient(top, #358ea6 50%, #1f7b94 50%);
+}
+
+.XmpieModifyButton:active
+{
+    background-color: #2f849c;
+    background-image: url(XmpImageButton-StrongGreen.svg);
+    background-image: -webkit-linear-gradient(top, #2f849c 50%, #1b738b 50%); 
+    background-image:    -moz-linear-gradient(top, #2f849c 50%, #1b738b 50%); 
+    background-image:     -ms-linear-gradient(top, #2f849c 50%, #1b738b 50%); 
+    background-image:      -o-linear-gradient(top, #2f849c 50%, #1b738b 50%); 
+    background-image:         linear-gradient(top, #2f849c 50%, #1b738b 50%);
+}
+
+/* ////////////////////////////////////////////// ANTHONYS UNIQUE STYLING //////////////////////////////////////////// */
+
+#ctl00_cphMainContent_tblSplitButtons{
+	float:right;
+	clear:both;
+}
+
+/* Product description styles */
+.DPcontainerBox {
+	color:#333333;
+}
+
+.DPcontainerBox dt{
+	font-weight:bold;
+}
+
+.DPcontainerBox dd{
+	font-size:12px;
+	font-style:italic;
+}
+
+.DP1Htable, .DP2Htable {
+	text-align:center;
+	border-spacing:0px;
+	border-radius:10px;
+	margin:0 auto;
+	min-width:350px;
+}
+
+.DP1Htable td, .DP2Htable td {
+	padding:5px;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+}
+
+.DP1Htable th, .DP2Htable th {
+	border:2px solid #000;
+	font-weight:bold;
+	background-color:#511c6c;
+	color:#ffffff;
+}
+
+.DP1Htable .header td, .DP2Htable .header td {
+	border-bottom:2px solid #000;
+	border-right:2px solid #000;
+	font-weight:bold;
+}
+
+.DP1Htable .subHeader td, .DP2Htable .subHeader td {
+	border-bottom-width:2px;
+}
+
+.DP1Htable th:first-child, .DP2Htable th:first-child {
+	border-top-left-radius:10px;
+}
+
+.DP1Htable th:last-child, .DP2Htable th:last-child{
+	border-top-right-radius:10px;
+}
+
+.DP1Htable tr:last-child td:first-child, .DP2Htable tr:last-child td:first-child{
+	border-bottom-left-radius:10px;
+}
+
+.DP1Htable tr:last-child td:last-child, .DP2Htable tr:last-child td:last-child{
+	border-bottom-right-radius:10px;
+}
+
+.DP1Htable tr:last-child, .DP2Htable tr:last-child{
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.DP1Htable body, .DP2Htable body{
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.DP1Htable tr:nth-child(2n+3) {
+	background-color:#aeaeae;
+}
+.DP2Htable tr:nth-child(2n+4) {
+	background-color:#aeaeae;
+}
+.DP1Htable tr td:first-child{
+	border-left:2px solid #000;
+}
+
+.DP1Htable .leftBorder, .DP2Htable .leftBorder{
+	border-left:2px solid #000;
+}
+
+.DP1Htable .rightBorder, .DP2Htable .rightBorder{
+	border-right-width:2px;
+}
+
+.DP1Htable .bottomBorder, .DP2Htable .bottomBorder {
+	border-bottom-width:2px;
+}
+
+.DP1Htable tr td:last-child , .DP2Htable tr td:last-child {
+	border-right-width:2px;
+}
+
+.DP1Htable tr:last-child td, .DP2Htable tr:last-child td {
+	border-bottom-width:2px;
+}
+
+.VerticalMenuDiv .disabledItem {
+	color: #aaaaaa;
+}
+
+	.VerticalMenuDiv .disabledItem:hover {
+		color: #aaaaaa;
+		cursor: default;
+		background: white !important;
+	}
+
+
+.DPcontainerBox blockquote{
+	margin: 20px 0;
+	padding-left: 1.5rem;
+	border-left: 5px solid #da1076;
+	font-weight:700;
+}
+
+
+/* DOCUMENT BUILDER PRINT PROPERTIES DEFAULT OVER-RIDE */
+	
+/* IE needs special attention in overriding gradient background */
+.ie .VerticalMenuDiv .disabledItem:hover {
+	color: #aeaeae;
+	cursor: default;
+	background: white !important;
+	background: -ms-linear-gradient(top, white 27%,white 66%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='white', endColorstr='white',GradientType=0 ); /* IE6-9 */
+}
+
+.VerticalMenuDiv ul li:hover {
+	cursor: pointer;
+	background-color: #ffffff; /* Old browsers */
+	color:#778890;
+}
+
+.VerticalMenuDiv_ul_li_active {
+	background-color:#888888;
+	border-radius:4px;
+	color:#e6e6e6;
+}
+
+/* SUB MENU STYLING */
